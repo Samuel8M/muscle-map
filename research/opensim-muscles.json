@@ -1,0 +1,1199 @@
+{
+ "sources": {
+  "Rajagopal2016+LaiUhlrich2023": "Rajagopal et al. (2016) full-body model, with Lai et al. (2017) and Uhlrich et al. (2022) updates: opensim-org/opensim-models Models/Rajagopal/RajagopalLaiUhlrich2023.osim",
+  "Wu2016-shoulder": "Wu et al. (2016) shoulder model (via points), from pyomeca/biobuddy examples/models/Wu_Shoulder_Model_via_points.osim",
+  "Arm26": "OpenSim Arm26 model (Holzbaur-based elbow muscles): opensim-org/opensim-models Models/Arm26/arm26.osim",
+  "OpenSim-wrist": "OpenSim wrist model (Gonzalez/Delp lineage): opensim-org/opensim-models Models/WristModel/wrist.osim"
+ },
+ "muscles": {
+  "Rajagopal2016+LaiUhlrich2023": {
+   "addbrev_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 625.819672131148
+   },
+   "addlong_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 916.8
+   },
+   "addmagDist_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 597.295081967214
+   },
+   "addmagIsch_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 597.295081967214
+   },
+   "addmagMid_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 597.295081967214
+   },
+   "addmagProx_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 597.295081967214
+   },
+   "bflh_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "tibia_r"
+    ],
+    "max_isometric_force_N": 1313.18360655738
+   },
+   "bfsh_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "femur_r",
+     "tibia_r"
+    ],
+    "max_isometric_force_N": 557.11475409836
+   },
+   "edl_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_r",
+     "calcn_r",
+     "toes_r"
+    ],
+    "max_isometric_force_N": 603.4981556
+   },
+   "ehl_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_r",
+     "calcn_r",
+     "toes_r"
+    ],
+    "max_isometric_force_N": 285.8675474
+   },
+   "fdl_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_r",
+     "calcn_r",
+     "toes_r"
+    ],
+    "max_isometric_force_N": 423.177049180328
+   },
+   "fhl_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_r",
+     "calcn_r",
+     "toes_r"
+    ],
+    "max_isometric_force_N": 907.839344262294
+   },
+   "gaslat_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "femur_r",
+     "calcn_r"
+    ],
+    "max_isometric_force_N": 1575.05901639344
+   },
+   "gasmed_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "femur_r",
+     "calcn_r"
+    ],
+    "max_isometric_force_N": 3115.51475409836
+   },
+   "glmax1_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 983.783606557378
+   },
+   "glmax2_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 1406.04590163935
+   },
+   "glmax3_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 947.754098360656
+   },
+   "glmed1_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 1093.4667688
+   },
+   "glmed2_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 765.0916616
+   },
+   "glmed3_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 871.1992642
+   },
+   "glmin1_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 374.045901639344
+   },
+   "glmin2_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 394.819672131148
+   },
+   "glmin3_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 446.773770491804
+   },
+   "grac_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "tibia_r"
+    ],
+    "max_isometric_force_N": 281.311475409836
+   },
+   "iliacus_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 1021.14098360656
+   },
+   "perbrev_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_r",
+     "calcn_r"
+    ],
+    "max_isometric_force_N": 521.2015988
+   },
+   "perlong_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_r",
+     "calcn_r"
+    ],
+    "max_isometric_force_N": 1115.3714214
+   },
+   "piri_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 1029.7868852459
+   },
+   "psoas_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r"
+    ],
+    "max_isometric_force_N": 1426.79016393443
+   },
+   "recfem_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "patella_r",
+     "tibia_r"
+    ],
+    "max_isometric_force_N": 2191.74098360656
+   },
+   "sart_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r",
+     "tibia_r"
+    ],
+    "max_isometric_force_N": 249.413114754098
+   },
+   "semimem_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "tibia_r"
+    ],
+    "max_isometric_force_N": 2200.9868852459
+   },
+   "semiten_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "tibia_r"
+    ],
+    "max_isometric_force_N": 591.295081967214
+   },
+   "soleus_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_r",
+     "calcn_r"
+    ],
+    "max_isometric_force_N": 6194.84262295082
+   },
+   "tfl_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_r",
+     "tibia_r"
+    ],
+    "max_isometric_force_N": 411.20655737705
+   },
+   "tibant_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_r",
+     "calcn_r"
+    ],
+    "max_isometric_force_N": 1227.45245901639
+   },
+   "tibpost_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_r",
+     "calcn_r"
+    ],
+    "max_isometric_force_N": 1730.15409836065
+   },
+   "vasint_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "femur_r",
+     "patella_r",
+     "tibia_r"
+    ],
+    "max_isometric_force_N": 1697.36065573771
+   },
+   "vaslat_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "femur_r",
+     "patella_r",
+     "tibia_r"
+    ],
+    "max_isometric_force_N": 5148.76721311476
+   },
+   "vasmed_r": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "femur_r",
+     "patella_r",
+     "tibia_r"
+    ],
+    "max_isometric_force_N": 2747.82295081966
+   },
+   "addbrev_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 625.819672131148
+   },
+   "addlong_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 916.8
+   },
+   "addmagDist_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 597.295081967214
+   },
+   "addmagIsch_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 597.295081967214
+   },
+   "addmagMid_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 597.295081967214
+   },
+   "addmagProx_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 597.295081967214
+   },
+   "bflh_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "tibia_l"
+    ],
+    "max_isometric_force_N": 1313.18360655738
+   },
+   "bfsh_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "femur_l",
+     "tibia_l"
+    ],
+    "max_isometric_force_N": 557.11475409836
+   },
+   "edl_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_l",
+     "calcn_l",
+     "toes_l"
+    ],
+    "max_isometric_force_N": 603.4981556
+   },
+   "ehl_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_l",
+     "calcn_l",
+     "toes_l"
+    ],
+    "max_isometric_force_N": 285.8675474
+   },
+   "fdl_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_l",
+     "calcn_l",
+     "toes_l"
+    ],
+    "max_isometric_force_N": 423.177049180328
+   },
+   "fhl_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_l",
+     "calcn_l",
+     "toes_l"
+    ],
+    "max_isometric_force_N": 907.839344262294
+   },
+   "gaslat_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "femur_l",
+     "calcn_l"
+    ],
+    "max_isometric_force_N": 1575.05901639344
+   },
+   "gasmed_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "femur_l",
+     "calcn_l"
+    ],
+    "max_isometric_force_N": 3115.51475409836
+   },
+   "glmax1_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 983.783606557378
+   },
+   "glmax2_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 1406.04590163935
+   },
+   "glmax3_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 947.754098360656
+   },
+   "glmed1_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 1093.4667688
+   },
+   "glmed2_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 765.0916616
+   },
+   "glmed3_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 871.1992642
+   },
+   "glmin1_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 374.045901639344
+   },
+   "glmin2_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 394.819672131148
+   },
+   "glmin3_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 446.773770491804
+   },
+   "grac_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "tibia_l"
+    ],
+    "max_isometric_force_N": 281.311475409836
+   },
+   "iliacus_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 1021.14098360656
+   },
+   "perbrev_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_l",
+     "calcn_l"
+    ],
+    "max_isometric_force_N": 521.2015988
+   },
+   "perlong_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_l",
+     "calcn_l"
+    ],
+    "max_isometric_force_N": 1115.3714214
+   },
+   "piri_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 1029.7868852459
+   },
+   "psoas_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l"
+    ],
+    "max_isometric_force_N": 1426.79016393443
+   },
+   "recfem_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "patella_l",
+     "tibia_l"
+    ],
+    "max_isometric_force_N": 2191.74098360656
+   },
+   "sart_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l",
+     "tibia_l"
+    ],
+    "max_isometric_force_N": 249.413114754098
+   },
+   "semimem_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "tibia_l"
+    ],
+    "max_isometric_force_N": 2200.9868852459
+   },
+   "semiten_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "tibia_l"
+    ],
+    "max_isometric_force_N": 591.295081967214
+   },
+   "soleus_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_l",
+     "calcn_l"
+    ],
+    "max_isometric_force_N": 6194.84262295082
+   },
+   "tfl_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "pelvis",
+     "femur_l",
+     "tibia_l"
+    ],
+    "max_isometric_force_N": 411.20655737705
+   },
+   "tibant_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_l",
+     "calcn_l"
+    ],
+    "max_isometric_force_N": 1227.45245901639
+   },
+   "tibpost_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "tibia_l",
+     "calcn_l"
+    ],
+    "max_isometric_force_N": 1730.15409836065
+   },
+   "vasint_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "femur_l",
+     "patella_l",
+     "tibia_l"
+    ],
+    "max_isometric_force_N": 1697.36065573771
+   },
+   "vaslat_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "femur_l",
+     "patella_l",
+     "tibia_l"
+    ],
+    "max_isometric_force_N": 5148.76721311476
+   },
+   "vasmed_l": {
+    "type": "Millard2012EquilibriumMuscle",
+    "bodies": [
+     "femur_l",
+     "patella_l",
+     "tibia_l"
+    ],
+    "max_isometric_force_N": 2747.82295081966
+   }
+  },
+  "Wu2016-shoulder": {
+   "LVS": {
+    "bodies": [
+     "thorax",
+     "scapula"
+    ],
+    "max_isometric_force_N": 169.956397255998
+   },
+   "TRP1": {
+    "bodies": [
+     "thorax",
+     "clavicle"
+    ],
+    "max_isometric_force_N": 280.56713981164
+   },
+   "TRP2": {
+    "bodies": [
+     "thorax",
+     "scapula"
+    ],
+    "max_isometric_force_N": 162.449964047061
+   },
+   "TRP3": {
+    "bodies": [
+     "thorax",
+     "scapula"
+    ],
+    "max_isometric_force_N": 155.283166835007
+   },
+   "TRP4": {
+    "bodies": [
+     "thorax",
+     "scapula"
+    ],
+    "max_isometric_force_N": 557.243455375577
+   },
+   "RMN": {
+    "bodies": [
+     "thorax",
+     "scapula"
+    ],
+    "max_isometric_force_N": 301.617061455788
+   },
+   "RMJ1": {
+    "bodies": [
+     "thorax",
+     "scapula"
+    ],
+    "max_isometric_force_N": 185.935898822876
+   },
+   "RMJ2": {
+    "bodies": [
+     "thorax",
+     "scapula"
+    ],
+    "max_isometric_force_N": 111.570078855478
+   },
+   "SRA1": {
+    "bodies": [
+     "thorax",
+     "scapula"
+    ],
+    "max_isometric_force_N": 365.117753355088
+   },
+   "SRA2": {
+    "bodies": [
+     "thorax",
+     "scapula"
+    ],
+    "max_isometric_force_N": 179.962605324004
+   },
+   "SRA3": {
+    "bodies": [
+     "thorax",
+     "scapula"
+    ],
+    "max_isometric_force_N": 377.921664337259
+   },
+   "SBCL": {
+    "bodies": [
+     "thorax",
+     "clavicle"
+    ],
+    "max_isometric_force_N": 195.807648942742
+   },
+   "PMN": {
+    "bodies": [
+     "scapula",
+     "thorax"
+    ],
+    "max_isometric_force_N": 218.722935306591
+   },
+   "DELT1": {
+    "bodies": [
+     "humerus",
+     "clavicle"
+    ],
+    "max_isometric_force_N": 556.8
+   },
+   "DELT2": {
+    "bodies": [
+     "humerus",
+     "scapula"
+    ],
+    "max_isometric_force_N": 1098.4
+   },
+   "DELT3": {
+    "bodies": [
+     "scapula",
+     "humerus"
+    ],
+    "max_isometric_force_N": 944.7
+   },
+   "SUPSP": {
+    "bodies": [
+     "humerus",
+     "scapula"
+    ],
+    "max_isometric_force_N": 410.7
+   },
+   "INFSP": {
+    "bodies": [
+     "humerus",
+     "scapula"
+    ],
+    "max_isometric_force_N": 864.6
+   },
+   "SUBSC": {
+    "bodies": [
+     "humerus",
+     "scapula"
+    ],
+    "max_isometric_force_N": 944.3
+   },
+   "bic_l": {
+    "bodies": [
+     "scapula",
+     "humerus",
+     "radius"
+    ],
+    "max_isometric_force_N": 624.3
+   },
+   "bic_s": {
+    "bodies": [
+     "scapula",
+     "humerus",
+     "radius"
+    ],
+    "max_isometric_force_N": 435.56
+   },
+   "TMIN": {
+    "bodies": [
+     "humerus",
+     "scapula"
+    ],
+    "max_isometric_force_N": 605.4
+   },
+   "TMAJ": {
+    "bodies": [
+     "humerus",
+     "scapula"
+    ],
+    "max_isometric_force_N": 234.9
+   },
+   "PECM1": {
+    "bodies": [
+     "humerus",
+     "clavicle"
+    ],
+    "max_isometric_force_N": 983.4
+   },
+   "PECM2": {
+    "bodies": [
+     "humerus",
+     "thorax"
+    ],
+    "max_isometric_force_N": 699.7
+   },
+   "PECM3": {
+    "bodies": [
+     "humerus",
+     "thorax"
+    ],
+    "max_isometric_force_N": 446.7
+   },
+   "tric_long": {
+    "bodies": [
+     "scapula",
+     "humerus",
+     "ulna"
+    ],
+    "max_isometric_force_N": 798.52
+   },
+   "tric_lat": {
+    "bodies": [
+     "humerus",
+     "ulna"
+    ],
+    "max_isometric_force_N": 624.3
+   },
+   "tric_med": {
+    "bodies": [
+     "humerus",
+     "ulna"
+    ],
+    "max_isometric_force_N": 624.3
+   },
+   "LAT": {
+    "bodies": [
+     "humerus",
+     "thorax"
+    ],
+    "max_isometric_force_N": 1129.7
+   },
+   "CORB": {
+    "bodies": [
+     "scapula",
+     "humerus"
+    ],
+    "max_isometric_force_N": 306.9
+   }
+  },
+  "Arm26": {
+   "TRIlong": {
+    "type": "Thelen2003Muscle",
+    "bodies": [
+     "base",
+     "r_humerus",
+     "r_ulna_radius_hand"
+    ],
+    "max_isometric_force_N": 798.52
+   },
+   "TRIlat": {
+    "type": "Thelen2003Muscle",
+    "bodies": [
+     "r_humerus",
+     "r_ulna_radius_hand"
+    ],
+    "max_isometric_force_N": 624.3
+   },
+   "TRImed": {
+    "type": "Thelen2003Muscle",
+    "bodies": [
+     "r_humerus",
+     "r_ulna_radius_hand"
+    ],
+    "max_isometric_force_N": 624.3
+   },
+   "BIClong": {
+    "type": "Thelen2003Muscle",
+    "bodies": [
+     "base",
+     "r_humerus",
+     "r_ulna_radius_hand"
+    ],
+    "max_isometric_force_N": 624.3
+   },
+   "BICshort": {
+    "type": "Thelen2003Muscle",
+    "bodies": [
+     "base",
+     "r_humerus",
+     "r_ulna_radius_hand"
+    ],
+    "max_isometric_force_N": 435.56
+   },
+   "BRA": {
+    "type": "Thelen2003Muscle",
+    "bodies": [
+     "r_humerus",
+     "r_ulna_radius_hand"
+    ],
+    "max_isometric_force_N": 987.26
+   }
+  },
+  "OpenSim-wrist": {
+   "FCR": {
+    "bodies": [
+     "ground",
+     "radius",
+     "trapezoid",
+     "metacarpal2"
+    ],
+    "max_isometric_force_N": 59.7
+   },
+   "FCU": {
+    "bodies": [
+     "ground",
+     "ulna",
+     "hamate",
+     "metacarpal5"
+    ],
+    "max_isometric_force_N": 102.6
+   },
+   "ECU_pre-surgery": {
+    "bodies": [
+     "ground",
+     "radius",
+     "ulna",
+     "triquetrum",
+     "metacarpal5"
+    ],
+    "max_isometric_force_N": 117
+   },
+   "ECU_post-surgery": {
+    "bodies": [
+     "ground",
+     "radius",
+     "ulna",
+     "radius",
+     "trapezoid",
+     "metacarpal3"
+    ],
+    "max_isometric_force_N": 117
+   },
+   "EDM": {
+    "bodies": [
+     "ground",
+     "radius",
+     "ulna",
+     "triquetrum",
+     "metacarpal5",
+     "littlefinger"
+    ],
+    "max_isometric_force_N": 28.8
+   },
+   "ECRB": {
+    "bodies": [
+     "ground",
+     "radius",
+     "trapezoid",
+     "metacarpal3"
+    ],
+    "max_isometric_force_N": 122.9
+   },
+   "ECRL": {
+    "bodies": [
+     "ground",
+     "radius",
+     "metacarpal2"
+    ],
+    "max_isometric_force_N": 65.7
+   },
+   "FDSI": {
+    "bodies": [
+     "ground",
+     "radius",
+     "capitate",
+     "metacarpal2",
+     "Iphalanx1",
+     "Iphalanx3"
+    ],
+    "max_isometric_force_N": 51.3
+   },
+   "FDSM": {
+    "bodies": [
+     "ground",
+     "radius",
+     "capitate",
+     "metacarpal3",
+     "midfinger"
+    ],
+    "max_isometric_force_N": 75.9
+   },
+   "FDSR": {
+    "bodies": [
+     "ground",
+     "radius",
+     "capitate",
+     "metacarpal3",
+     "metacarpal4",
+     "ringfinger"
+    ],
+    "max_isometric_force_N": 48.3
+   },
+   "FDSL": {
+    "bodies": [
+     "ground",
+     "radius",
+     "capitate",
+     "metacarpal4",
+     "metacarpal5",
+     "littlefinger"
+    ],
+    "max_isometric_force_N": 12
+   },
+   "FDPI": {
+    "bodies": [
+     "ulna",
+     "radius",
+     "capitate",
+     "metacarpal2",
+     "Iphalanx1",
+     "Iphalanx2"
+    ],
+    "max_isometric_force_N": 53.1
+   },
+   "FDPM": {
+    "bodies": [
+     "ulna",
+     "radius",
+     "capitate",
+     "metacarpal3",
+     "midfinger"
+    ],
+    "max_isometric_force_N": 66.9
+   },
+   "FDPR": {
+    "bodies": [
+     "ulna",
+     "radius",
+     "capitate",
+     "metacarpal3",
+     "metacarpal4",
+     "ringfinger"
+    ],
+    "max_isometric_force_N": 51.6
+   },
+   "FDPL": {
+    "bodies": [
+     "ulna",
+     "radius",
+     "capitate",
+     "metacarpal4",
+     "metacarpal5",
+     "littlefinger"
+    ],
+    "max_isometric_force_N": 66
+   },
+   "EDCL": {
+    "bodies": [
+     "ground",
+     "radius",
+     "scaphoid",
+     "capitate",
+     "metacarpal3",
+     "metacarpal5",
+     "littlefinger"
+    ],
+    "max_isometric_force_N": 18
+   },
+   "EDCR": {
+    "bodies": [
+     "ground",
+     "radius",
+     "scaphoid",
+     "metacarpal3",
+     "metacarpal4",
+     "ringfinger"
+    ],
+    "max_isometric_force_N": 38.7
+   },
+   "EDCM": {
+    "bodies": [
+     "ground",
+     "radius",
+     "scaphoid",
+     "metacarpal3",
+     "midfinger"
+    ],
+    "max_isometric_force_N": 45.9
+   },
+   "EDCI": {
+    "bodies": [
+     "ground",
+     "radius",
+     "scaphoid",
+     "capitate",
+     "metacarpal3",
+     "metacarpal2",
+     "Iphalanx1",
+     "Iphalanx3"
+    ],
+    "max_isometric_force_N": 23.4
+   },
+   "FPL": {
+    "bodies": [
+     "radius",
+     "thumb"
+    ],
+    "max_isometric_force_N": 62.4
+   },
+   "APL": {
+    "bodies": [
+     "radius",
+     "trapezium",
+     "thumb"
+    ],
+    "max_isometric_force_N": 57.9
+   },
+   "EPB": {
+    "bodies": [
+     "radius",
+     "trapezium",
+     "thumb"
+    ],
+    "max_isometric_force_N": 14.1
+   },
+   "EPL": {
+    "bodies": [
+     "ulna",
+     "radius",
+     "scaphoid",
+     "thumb"
+    ],
+    "max_isometric_force_N": 44.1
+   },
+   "EIP": {
+    "bodies": [
+     "ulna",
+     "radius",
+     "scaphoid",
+     "metacarpal2",
+     "Iphalanx3"
+    ],
+    "max_isometric_force_N": 25.2
+   },
+   "PL": {
+    "bodies": [
+     "ground",
+     "radius",
+     "capitate",
+     "metacarpal3"
+    ],
+    "max_isometric_force_N": 20.7
+   }
+  }
+ }
+}
